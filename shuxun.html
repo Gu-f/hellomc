@@ -1,0 +1,243 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>书讯</title>
+<link href="top-menu.css" type="text/css" rel="stylesheet" />
+<style type="text/css">
+	.menu .menu01 {
+		background: url(images/bg_2.gif) repeat-x left center;
+	}
+	.list {
+		width: 980px;
+	}
+	.booka {
+		width: 980px;
+		height: 240px;
+		margin-bottom: 40px;
+	}
+	.book  {
+		margin-top: 20px;
+		width: 220px;
+		height: 220px;
+		position: relative;
+		float: left;
+	}
+	.book a {
+		color:#A4A2A2;
+		text-decoration: none;
+		position: absolute;
+	}
+	.book a.b1 {
+		top: 30px;
+		left: 70px;
+		z-index: 88;
+	}
+	.book a.b2 {
+		top: 50px;
+		left: 20px;
+	}
+	.book a.b3 {
+		top: 70px;
+		left: 120px;
+	}
+	.book a span {
+		display: none;
+	}
+	.book span .img {
+		float: left;
+	}
+	.book span .p {
+		width: 290px;
+		float: left;
+	}
+	.book a.b1:hover,.book a.b2:hover,.book a.b3:hover {
+		z-index: 99;
+	}
+	.book a.b1:hover span,.book a.b2:hover span,.book a.b3:hover span {
+		display: block;
+		width: 600px;
+		height: 432px;
+		border: #000000 solid 1px;
+		background-color: #DCD6D7;
+		position: absolute;
+		left: 120px;
+		top: -150px;
+		z-index: 99;
+	}
+	.bookb {
+		margin-top: 20px;
+		width: 740px;
+		height: 220px;
+		text-align: center;line-height: 40px;
+		float: left;
+	}
+	.bookb a {
+		display: inline-block;
+		text-decoration: none;
+		color: darkcyan;
+	}
+	.ll {
+		border-top:  #D3D3D3 solid 1px;
+		padding: 40px 0;
+		margin-top: 20px;
+		width: 980px;
+		height: 600px;
+	}
+	.list_l,.list_r{
+		width: 400px;
+		float: left;
+	}
+	.list_l li,.list_r li {
+		border: #000000 solid 1px;
+		margin-top: 20px;
+		background: url(images/fm.png) no-repeat;
+		width: 300px;
+		height: 150px;
+		font-size: 80%;
+		margin-left: 20px;
+	}
+	.list_l li p,.list_r li p {
+		margin-left: 120px;
+		line-height: 20px;
+	}
+	.list_c {
+		width: 140px;
+		border-left: #AFACAC solid 1px;
+		float: right;
+	}
+	.list_c li {
+		line-height: 95px;
+		height: 95x;
+		text-align: center;
+	}
+	
+	.ll li a:visited,.ll li a:link {
+		color: green;
+	}
+	.ll li a:hover {
+		color: cadetblue;
+	}
+	.list_c li a:visited,.list_c li a:link {
+		color: #979797;
+	}
+	.list_c li a:hover {
+		color: cadetblue;
+	}
+	.gonggao {
+		border-top:  #D3D3D3 solid 1px;
+		padding: 40px 0;
+		width: 980px;
+	}
+	.gonggao .ban {
+		background-color: antiquewhite;
+		border: #A7A7A7 solid 1px;
+		width: 800px;
+		height: 260px;
+		margin:0 auto;
+		margin-bottom: 40px;
+	}
+	.gonggao p {
+		font-size: 90%;
+		color: #7E7E7E;
+	}
+	</style>
+</head>
+
+<body>
+<div class="box">
+	<div class="top">
+		<img src="images/logo.gif">
+		<div class="search">
+			<form action="http://www.baidu.com/baidu" target="_blank">
+	            <input type="text"  name="word" value="本页中热书榜内图片鼠标悬停时有效果" style="width: 400px; height: 30px;border:1px solid green;"/>
+	            <input type="submit" value="搜索" style="width: 100px; height: 34px;border:1px solid green;" /> 
+        	</form>
+		</div>
+	</div>
+	
+	
+	<div class="menu">
+		<ul class="menu1">
+		    <li class="left"></li>
+		    <li class="center">
+		    	<ul class="menu2">
+		    	<li class="menu00"><a href="index.html">首页</a></li>
+			    <li class="menu01"><a href="shuxun.html">书讯</a></li>
+			    <li class="menu02"><a href="shuku.html">书库</a></li>
+			    <li class="menu03"><a href="shuyou.html">书友</a></li>
+			    </ul>
+		    </li>
+			<li class="right"></li>
+		</ul>
+	</div>
+	<div class="list">
+        <div class="booka">
+	        <div class="book">
+	            <p style="height: 30px;font-size: 110%;margin:0;color: #A39E9E">热书榜</p>
+	        	<a href="#" class="b1"><img src="images/jy.gif"><span><img src="reimgs/jy.jpg" class="img"><p class="p">解忧杂货店<br />《解忧杂货店》是日本作家东野圭吾写作的奇幻温情小说。2011年于《小说野性时代》连载，于2012年3月由角川书店发行单行本。该书讲述了在僻静街道旁的一家杂货店，只要写下烦恼投进店前门卷帘门的投信口，第二天就会在店后的牛奶箱里得到回答：因男友身患绝症，年轻女孩月兔在爱情与梦想间徘徊；松冈克郎为了音乐梦想离家漂泊，却在现实中寸步难行；少年浩介面临家庭巨变，挣扎在亲情与未来的迷茫中……他们将困惑写成信投进杂货店，奇妙的事情随即不断发生。</p></span></a>
+	        	<a href="#" class="b2"><img src="images/sg.gif"><span><img src="reimgs/sg.jpg" class="img"><p class="p">三国演义<br />《三国演义》是中国古典四大名著之一，是中国第一部长篇章回体历史演义小说，全名为《三国志通俗演义》（又称《三国志演义》），作者是元末明初的著名小说家罗贯中。《三国演义》描写了从东汉末年到西晋初年之间近105年的历史风云，以描写战争为主，诉说了东汉末年的群雄割据混战和魏、蜀、吴三国之间的政治和军事斗争，最终司马炎一统三国，建立晋朝的故事。反映了三国时代各类社会斗争与矛盾的转化，并概括了这一时代的历史巨变，塑造了一批叱咤风云的三国英雄人物。</p></span></a>
+	        	<a href="#" class="b3"><img src="images/wk.gif"><span><img src="reimgs/wk.jpg" class="img"><p class="p">悟空传<br />《悟空传》是由今何在（原名曾雨）最先在新浪网金庸客栈上面连载发表的长篇小说，共二十章。该书讲述了悲剧英雄孙悟空以及唐僧等人对命运的抗争，作者以现代人的角度重新解读《西游记》的某些情节，通篇弥漫的是思考。</p></span></a>
+	        </div>
+            <div class="bookb">
+                <h3>近期热书榜新鲜出炉</h3>
+                <p>《皆有杂货店》、《三国演义》、《悟空传》荣登热书榜前三！！！</p>
+                <p>除了书籍外，更有精彩的书评热榜即将出炉。以下为夺冠热门书评！</p>
+                <p><a href="#">《晚安，费兰特小姐》</a>&nbsp;&nbsp;<a href="#">《外婆的密阿玛斯》</a>&nbsp;&nbsp;<a href="#">《草木有本心》</a></p>
+            </div>
+        </div>
+        <div class="ll">
+        	<div class="list_l">
+				    <p style="height: 30px;font-size: 110%; margin:0;color: #A39E9E">新书速递</p>
+					<ul>
+						<li><p><a href="#">你好，法奈利</a><br />评分：****<br />作者: [美] 杰西卡•诺尔<br />出版社: 百花洲文艺出版社<br />译者: 吴超<br />出版年: 2017-4</p></li>
+						<li><p><a href="#">世间一切，都是遇见</a><br />评分：****<br />作者: 十点读书<br />出版社: 北京联合出版公司<br />出版年: 2017-6-20<br /></p></li>
+						<li><p><a href="#">你好，法奈利</a><br />评分：****<br />作者: [美] 杰西卡•诺尔<br />出版社: 百花洲文艺出版社<br />译者: 吴超<br />出版年: 2017-4</p></li>
+						<li style="width: 100px; height: 30px;margin-left: 300px; background: none;font-size: 110%;border: none;"><a href="#" class="more">more&gt&gt&gt</a></li>
+					</ul>
+			</div>
+            <div class="list_r">
+				    <p style="height: 30px;font-size: 110%;margin:0;color: #A39E9E">最受关注图书</p>
+					<ul>
+						<li><p><a href="#">你好，法奈利</a><br />评分：****<br />作者: [美] 杰西卡•诺尔<br />出版社: 百花洲文艺出版社<br />译者: 吴超<br />出版年: 2017-4</p></li>
+						<li><p><a href="#">世间一切，都是遇见</a><br />评分：****<br />作者: 十点读书<br />出版社: 北京联合出版公司<br />出版年: 2017-6-20<br /></p></li>
+						<li><p><a href="#">你好，法奈利</a><br />评分：****<br />作者: [美] 杰西卡•诺尔<br />出版社: 百花洲文艺出版社<br />译者: 吴超<br />出版年: 2017-4</p></li>
+						<li style="width: 100px; height: 30px;margin-left: 300px; background: none;font-size: 110%;border: none;"><a href="#" class="more">more&gt&gt&gt</a></li>
+					</ul>
+			</div>
+            <div class="list_c">
+				    <p style="height: 30px;font-size: 110%;margin:0;color: #A39E9E;text-align: center;">推广链接</p>
+					<ul>
+						<li><a href="#">百度贴吧&gt&gt&gt</a></li>
+						<li><a href="#">网易云音乐&gt&gt&gt</a></li>
+						<li><a href="#">爱奇艺视频&gt&gt&gt</a></li>
+						<li><a href="#">网易云课堂&gt&gt&gt</a></li>
+						<li><a href="#">慕课网&gt&gt&gt</a></li>
+						<li><a href="#">CSDN&gt&gt&gt</a></li>
+					</ul>
+			</div>
+       
+        </div>
+        <div class="gonggao">
+        	 <p style="height: 30px;font-size: 110%;margin:0;color: #A39E9E">公告栏</p>
+        	 <div class="ban">
+        	 	<p>在图书漂流上发布你闲置的书籍与其他会员互换，若有人想换取你的书籍，请你邮寄给对方。对方会给你书币作为回报，你可以用书币在换书网千千万万网友手中换取你喜爱的图书！ 同样对方也会免费邮寄给你。必须要说的是，这一切都是免费的哦^_^ </p>
+        	 	<p>在图书漂流上发布你闲置的书籍与其他会员互换，若有人想换取你的书籍，请你邮寄给对方。对方会给你书币作为回报，你可以用书币在换书网千千万万网友手中换取你喜爱的图书！ 同样对方也会免费邮寄给你。必须要说的是，这一切都是免费的哦^_^ </p>
+        	 	<p>在图书漂流上发布你闲置的书籍与其他会员互换，若有人想换取你的书籍，请你邮寄给对方。对方会给你书币作为回报，你可以用书币在换书网千千万万网友手中换取你喜爱的图书！ 同样对方也会免费邮寄给你。必须要说的是，这一切都是免费的哦^_^ </p>
+        	 </div>
+        	 
+        </div>
+	</div>
+	<div class="bottum">
+		<ul >
+			<li><a href="#">关于我们</a></li>
+			<li><a href="#">免责声明</a></li>
+			<li><a href="#">联系我们</a></li>
+			<li><a href="#">帮助中心</a></li>
+		</ul>
+		<p class="p1">Copyright © 2017 web.com,All Rights Reserved</p>
+		<p class="p2"> 鲁ICP备66666666</p>
+	</div>
+</div>
+</body>
+</html>
